@@ -19,11 +19,6 @@ Complex::Complex(float a, float b)
 }
 
 
-void Complex::get(Complex nr) {
-	this->r = nr.r;
-	this->i = nr.i;
-}
-
 Complex Complex::operator+(Complex nr) {
 	Complex sum;
 

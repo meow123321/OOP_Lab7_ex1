@@ -13,7 +13,6 @@ public:
 	Complex(float a);
 	Complex(float a, float b);
 
-	void get(Complex nr);
 	Complex operator+(Complex nr);
 	Complex operator-(Complex nr);
 	Complex operator*(Complex nr);
